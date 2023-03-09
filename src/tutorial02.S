@@ -79,7 +79,7 @@ entry:
     // in register pair R30:R31 (low byte in R30).
     ldi r30, 0b01011101
     ldi r31, 0b00111001
-    addiw r30, 0b00101100
+    adiw r30, 0b00101100
 
 
     // Write your code for Ex 2.4 above this line.
