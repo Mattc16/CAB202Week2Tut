@@ -110,7 +110,8 @@ entry:
     //
     // Write assembly code to use an "add" instruction to subtract the value in r22
     // from 91, and store the result in r23.
-    ldi r21, 0b1010100
+    ldi r21, 91
+    neg r22
     add r22, r21
     mov r23, r22
 
@@ -140,7 +141,8 @@ entry:
     //
     // Write assembly code to divide the number -37 by 4
     // and store the result in R3.
-    ldi r19, 0b11011011
+    ldi r19, 37
+    neg r19
     lsr r19
     lsr r19
     mov r3, r19
