@@ -141,8 +141,7 @@ entry:
     //
     // Write assembly code to divide the number -37 by 4
     // and store the result in R3.
-    ldi r19, 37
-    neg r19
+    ldi r19, -37
     lsr r19
     lsr r19
     mov r3, r19
